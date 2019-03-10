@@ -1,5 +1,5 @@
 # Object-Oriented Programming Homework
-
+Java implementation of a management system of fiscal taxes for different types of shops, using Swing and AWT for GUI.
 ## Mod de implementare: 
 - Pe prima pagina a aplicatiei se pot observa doua butoane: LOGIN si IESIRE. Al doilea buton pur si simplu inchide aplicatia. Primul buton, cel de login, deschide un JDialog cu doua campuri: User si Pass, pentru a ne autentifica in aplicatie. Cand se apasa butonul de logare se verifica existenta in fisierul users.txt a datelor introduse. Daca acestea au fost introduse corect va aparea pagina de start a aplicatiei pe care se pot observa 4 butoane: Gestiune, Produse, Statistici si Iesire. 
 - Apasand butonul de gestiune va aparea o fereastra in care avem posibilitatea de a introduce cele 3 fisiere de test: produse.txt, taxe.txt, facturi.txt si de a crea fisierul de output out.txt. Odata creat, acesta se va deschide pe ecran pentru a verifica corectitudinea datelor si calculelor. Pentru alegerea fisierelor s-a folosit JFileChooser la care am adaugat un filtru pentru a permite doar incarcarea de fisiere cu extensia ".txt". De asemenea avem si un buton Meniu Principal care ne readuce la pagina de start.	  
